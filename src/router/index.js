@@ -1,6 +1,7 @@
 import { TestRouter } from "../components";
 
-const listRoutes = [["/test", TestRouter]];
+const listRoutes = [["/products", TestRouter]];
+
 
 export const routes = (app) => {
   listRoutes.forEach(([path, controller]) => {
